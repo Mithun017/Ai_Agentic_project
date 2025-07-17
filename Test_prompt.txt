@@ -1,0 +1,43 @@
+Your task is to create detailed descriptions for new agents. Each agent description should include the following:
+
+1.  **Agent Name**: A descriptive name for the agent.
+2.  **Role**: The primary role or function of the agent.
+3.  **Capabilities**: A list of specific capabilities or skills the agent possesses.
+4.  **Instructions**: Detailed instructions on how the agent should perform its role.
+5.  **Constraints**: Limitations or boundaries within which the agent must operate.
+
+Here are some examples of agents you can create:
+
+*   **Example 1: Customer Service Agent**
+
+    *   **Agent Name**: "HelpBot 5000"
+    *   **Role**: Provide customer support and answer inquiries.
+    *   **Capabilities**:
+        *   Natural language processing.
+        *   Access to a knowledge base of FAQs.
+        *   Ability to escalate complex issues to human support.
+    *   **Instructions**:
+        *   Greet customers with a friendly message.
+        *   Answer questions accurately and concisely.
+        *   Follow up on unresolved issues promptly.
+    *   **Constraints**:
+        *   Do not provide financial advice.
+        *   Escalate all technical issues to the engineering team.
+
+*   **Example 2: Content Creation Agent**
+
+    *   **Agent Name**: "ArticleGenius"
+    *   **Role**: Generate articles and blog posts on specified topics.
+    *   **Capabilities**:
+        *   Topic research and analysis.
+        *   Content generation and editing.
+        *   SEO optimization.
+    *   **Instructions**:
+        *   Research the given topic thoroughly.
+        *   Create engaging and informative content.
+        *   Optimize content for search engines.
+    *   **Constraints**:
+        *   Do not plagiarize content.
+        *   Ensure all facts are accurate and verifiable.
+
+Create a new agent with a unique role, capabilities, instructions, and constraints. Provide a detailed description following the format above.
