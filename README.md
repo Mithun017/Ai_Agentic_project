@@ -11,6 +11,7 @@ An AI-powered multi-agent system that searches the web, generates detailed answe
 * ✨ Answer Refinement via Groq LLaMA (llama-3.1-8b-instant)
 * 🐳 Dockerized for easy deployment
 * 🔐 Optional: Secure `.env` configuration
+* 📃 Streamlit UI with ChatGPT-like experience
 
 ---
 
@@ -20,6 +21,7 @@ An AI-powered multi-agent system that searches the web, generates detailed answe
 ai_agentic_project/
 │
 ├── main.py                # Main logic for multi-agent flow
+├── main_ui.py             # Streamlit UI app (ChatGPT-like interface)
 ├── requirements.txt       # All dependencies
 ├── Dockerfile             # Docker setup
 ├── .env (optional)        # Contains API keys (not pushed to GitHub)
@@ -105,7 +107,19 @@ docker push mithun1701/my-llm-app:latest
 
 ---
 
-## 🧪 Sample Output
+## 📅 Running the Streamlit UI
+
+### ✨ Launch the chat UI with:
+
+```bash
+streamlit run main_ui.py
+```
+
+Then open [http://localhost:8501](http://localhost:8501) in your browser to interact with the AI Assistant.
+
+---
+
+## 🔪 Sample Output (CLI)
 
 ```bash
 💬 Enter your query:
@@ -115,7 +129,7 @@ docker push mithun1701/my-llm-app:latest
 
 🧠 Generating detailed answer with Gemini...
 
-✨ Refining answer with Mistral...
+✨ Refining answer with Groq...
 
 ✅ FINAL OUTPUT:
 Here is a polished and refined version of your response:
@@ -127,7 +141,7 @@ Here is a polished and refined version of your response:
 ## 👨‍💻 Author
 
 **Mithun** — [GitHub](https://github.com/mithun1701)
-🌐 Powered by Gemini + Groq + Tavily + LangChain
+🌐 Powered by Gemini + Groq + Tavily + LangChain + Streamlit
 
 ---
 
