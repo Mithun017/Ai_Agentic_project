@@ -2,6 +2,8 @@
 
 An AI-powered multi-agent system that searches the web, generates detailed answers using Gemini, and refines them using Groq’s LLaMA models. The system is designed to run locally using Docker and requires no manual setup once the image is built.
 
+🌐 **Deployed App:** [https://ai-agentic-chat.streamlit.app/](https://ai-agentic-chat.streamlit.app/)
+
 ---
 
 ## 🚀 Features
@@ -117,6 +119,8 @@ streamlit run main_ui.py
 ```
 
 Then open [http://localhost:8501](http://localhost:8501) in your browser to interact with the AI Assistant.
+
+🌐 **Live Version:** [https://ai-agentic-chat.streamlit.app/](https://ai-agentic-chat.streamlit.app/)
 
 ---
 
