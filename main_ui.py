@@ -222,8 +222,6 @@ with st.container():
     # Display response at the top
     if st.session_state.last_response:
         st.markdown(f'<div class="response-card">{st.session_state.last_response}</div>', unsafe_allow_html=True)
-        # Fallback to display raw text if HTML rendering fails
-        st.write(st.session_state.last_response)
 
     # Bottom input bar
     with st.form(key="chat_form", clear_on_submit=True):
@@ -252,7 +250,6 @@ with st.container():
             final_output = groq_llm.invoke(groq_prompt)
 
         st.session_state.last_response = clean_output(final_output.content)
-     
         st.rerun()
 
     st.markdown('</div>', unsafe_allow_html=True)
