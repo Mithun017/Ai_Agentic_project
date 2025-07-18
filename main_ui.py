@@ -12,7 +12,6 @@ from urllib.parse import urlparse
 
 set_verbose(False)
 
-# API keys (use Streamlit secrets for security)
 gemini_api_key = "AIzaSyDMjMNmOs--NydgDY4i6m9hWdNwQVKuRK4"
 tavily_api_key = "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"
 groq_api_key = "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"

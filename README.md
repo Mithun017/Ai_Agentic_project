@@ -1,4 +1,4 @@
-# 🤖 AI Agentic Project
+# 🤖 AI_Agentic-An AI assistant that thinks, researches, and responds with clarity.
 
 An AI-powered multi-agent system that searches the web, generates detailed answers using Gemini, and refines them using Groq’s LLaMA models. The system is designed to run locally using Docker and requires no manual setup once the image is built.
 
