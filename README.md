@@ -78,7 +78,8 @@ GEMINI_API_KEY=your-gemini-key
 ### 🔨 Step 1: Build the Docker Image
 
 ```bash
-docker build -t mithun1701/smart-agent .
+docker build -t my-main-app .
+docker tag my-main-app mithun1701/my-main-app:latest
 ```
 
 ### ♻️ Step 2: Run the Container (with environment variables)
@@ -88,15 +89,15 @@ docker run -it --rm \
   -e GROQ_API_KEY=your-groq-key \
   -e TAVILY_API_KEY=your-tavily-key \
   -e GEMINI_API_KEY=your-gemini-key \
-  mithun1701/smart-agent:latest
+  mithun1701/my-main-app:latest
 ```
 
 ### ✅ OR: Run Without .env (if hardcoded inside image)
 
 ```bash
-docker pull mithun1701/smart-agent
+docker pull mithun1701/my-main-app:latest
 
-docker run -it --rm mithun1701/smart-agent
+docker run -it mithun1701/my-main-app:latest
 ```
 
 ---
@@ -104,8 +105,8 @@ docker run -it --rm mithun1701/smart-agent
 ## 🔄 Updating the Docker Image (after code changes)
 
 ```bash
-docker build -t mithun1701/smart-agent .
-docker push mithun1701/smart-agent:latest
+docker build -t mithun1701/my-main-app .
+docker push mithun1701/my-main-app:latest
 ```
 
 ---

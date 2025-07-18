@@ -1,2 +1,7 @@
-__pycache__/
-.env
+.*
+!main.py
+!requirements.txt
+main_ui.py
+main.ipynb
+README.md
+Test_prompt.txt
