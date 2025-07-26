@@ -14,7 +14,7 @@ set_verbose(False)
 
 gemini_api_key = "AIzaSyDMjMNmOs--NydgDY4i6m9hWdNwQVKuRK4"
 tavily_api_key = "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"
-groq_api_key = "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"
+groq_api_key = "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"
 
 if not gemini_api_key or not tavily_api_key or not groq_api_key:
     raise ValueError("❌ Missing one or more API keys.")
