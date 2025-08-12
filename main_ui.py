@@ -12,9 +12,9 @@ from urllib.parse import urlparse
 
 set_verbose(False)
 
-gemini_api_key = "AIzaSyDMjMNmOs--NydgDY4i6m9hWdNwQVKuRK4"
+gemini_api_key = "AIzaSyD8gMpxUEka13Y-ovBU6ORPmPRueY79owc"
 tavily_api_key = "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"
-groq_api_key = "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"
+groq_api_key = "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"
 
 if not gemini_api_key or not tavily_api_key or not groq_api_key:
     raise ValueError("❌ Missing one or more API keys.")
